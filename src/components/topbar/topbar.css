@@ -1,0 +1,98 @@
+.Topbarcontainer{
+height: 50px;
+width: 100%;
+background-color: #1877f2;
+display: flex;
+align-items: center;
+position: sticky;
+top: 0;
+z-index: 999;
+}
+
+.Topbarleft{
+    flex: 3;
+   
+}
+
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.Topbarcenter{
+    flex: 5;
+    
+}
+
+.searchbar{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    border-radius: 30px;
+}
+.searchicon{
+      font-size: 20px !important;
+      margin-left: 10px;
+
+}
+
+.searchinput{
+    width: 70%;
+    border:none;
+}
+.searchinput:focus{
+    outline: none;
+}
+
+
+.TopbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.topbarlink{
+    cursor: pointer;
+    font-style: 14px;
+    margin-right: 10px;
+}
+
+.Topbaricons {
+    display: flex;
+}
+.Topbariconsitems{
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.TopbariconBage{
+
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+
+.TopbarImg{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+}
